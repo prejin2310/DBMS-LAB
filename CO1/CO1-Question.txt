@@ -1,0 +1,34 @@
+CO1: Design and build a simple relational database system and demonstrate competence with the fundamental task involved with modeling,designing and implementing a database
+
+1. Create a schema of the following tables and identify necessary primary and foregin keys
+    i.Student(Roll_No,S_name,S_Address)
+   ii. Marksheet(Rollno,Sub1,Sub2,Sub3)
+
+2. Insert given values into above tables:
+      
+      Student Table:
+      
+      ROLL_NO SNAME                SADDRESS             
+      ------- -------------------- -----------------
+         1    Rahul                Pattom
+         2    Sachin               Ambalam Mukku
+         3    Saurav               Nalanchira
+
+     Marksheet Table:
+    
+         ROLLNO   SUB1       SUB2       SUB3
+         -------  ---------  ---------  ----------
+         1         78         89         94
+         2         54         65         77
+         3         23         78         46
+
+3. a.Add an Extra column Grade to marksheet table.
+   b.Remove Sub 2 column from Marksheet table.
+   c.Add an extra column phone_no to student table (it should contain only 10 numbers)
+
+4 From above table find
+  a.Student staying at pattom
+  b.Total mark of roll no 2
+  c.find the name of student having roll no 3.
+  d.Display the phone number of sachin
+         
