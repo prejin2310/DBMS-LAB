@@ -1,7 +1,5 @@
 SQL> create table Student(Roll_no int,Sname varchar(20),SAddress varchar(20),constraint stu primary key(Roll_no));
-
 SQL> create table Marksheet(Rollno int,Sub1 int,Sub2 int,Sub3 int,constraint mark foreign key(Rollno) references Student(Roll_no));
-
 
 SQL> desc Student;
 SQL> desc Marksheet;
