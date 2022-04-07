@@ -77,3 +77,20 @@ mysql> select * from Passenger;
 
 
 
+mysql> insert into Cancellation values(7354,'2019-10-10',2,9633551021);
+mysql> insert into Cancellation values(7355,'2019-10-18',12,7931076210);
+mysql> insert into Cancellation values(7356,'2019-10-10',6,7910751715);
+mysql> insert into Cancellation values(7357,'2019-10-20',7,9898331676);
+mysql> insert into Cancellation values(7358,'2019-10-11',1,9611731081);
+
+
+mysql> select * from Cancellation;
++-------+------------+--------+------------+
+| PNRNo | jdate      | SeatNo | ContactNo  |
++-------+------------+--------+------------+
+|  7354 | 2019-10-10 |      2 | 9633551021 |
+|  7355 | 2019-10-18 |     12 | 7931076210 |
+|  7356 | 2019-10-10 |      6 | 7910751715 |
+|  7357 | 2019-10-20 |      7 | 9898331676 |
+|  7358 | 2019-10-11 |      1 | 9611731081 |
++-------+------------+--------+------------+
