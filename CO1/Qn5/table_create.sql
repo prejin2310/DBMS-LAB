@@ -1,16 +1,16 @@
 mysql> create table Bus(BusNo int,source varchar(25),destination varchar(25),coach_type varchar(25), primary key(BusNo));
 mysql> desc Bus;
 
-mysql> create table Reservationn(PNRno int,jDate date,No_Seats int,Address varchar(25),ContactNo int,BusNo int,SeatNo int,primary key(PNRno), Foreign key(BusNo) references Bus(BusNo));
+mysql> create table Reservationn(PNRno int,jDate date,No_Seats int,Address varchar(25),ContactNo BIGINT,BusNo int,SeatNo int,primary key(PNRno), Foreign key(BusNo) references Bus(BusNo));
 mysql> desc Reservationn;
 
 mysql> create table Ticket(TicketNo int,Jdate date,age int,sex varchar(10),source varchar(25),Destination varchar(25),Dep_time time,BusNo int,primary key(TicketNo),foreign key(BusNo) references Bus(BusNo));
 mysql> desc Ticket;
 
-mysql> create table Passenger(PNRNo int,jdate date,SeatNo int,ContactNo int, foreign key(PNRNo) references Reservationn(PNRno));
+mysql> create table Passenger(PNRNo int,jdate date,SeatNo int,ContactNo BIGINT, foreign key(PNRNo) references Reservationn(PNRno));
 mysql> desc passenger;
 
-mysql> create table Cancellation(PNRNo int,jdate date,SeatNo int,ContactNo int, foreign key(PNRNo) references Reservationn(PNRno));
+mysql> create table Cancellation(PNRNo int,jdate date,SeatNo int,ContactNo BIGINT, foreign key(PNRNo) references Reservationn(PNRno));
 mysql> desc Cancellation;
 
 O/P:
