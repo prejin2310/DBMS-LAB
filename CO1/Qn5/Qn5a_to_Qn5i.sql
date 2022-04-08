@@ -1,5 +1,4 @@
-5a> select A.TicketNo,B.Name from Ticket as A inner join Passenger as B on A.TicketNo=b.TicketNo;
-
+5a> select TicketNo,Name from Passenger;
 +----------+---------+
 | TicketNo | Name    |
 +----------+---------+
@@ -28,8 +27,9 @@
 | Renjith |   35 |
 | Anu     |   28 |
 +---------+------+
+5d>
 
-5d> SET FOREIGN_KEY_CHECKS=0;
+5e> SET FOREIGN_KEY_CHECKS=0;
     delete from Bus where BusNo=201;
     SET FOREIGN_KEY_CHECKS=1;
     select * from Bus;
@@ -41,8 +41,6 @@
 |   203 | Offline | Kottayam    | AC         |
 |   204 | Online  | Mumbai      | Sleeper    |
 +-------+---------+-------------+------------+
-
-5e>
 
 
 5f> select A.Name,B.jdate from Passenger as A inner join Cancellation as B on A.PNRNo=B.PNRNo where B.jdate='2019-10-10';
