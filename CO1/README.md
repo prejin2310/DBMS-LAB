@@ -1,8 +1,8 @@
 CO1: Design and build a simple relational database system and demonstrate competence with the fundamental task involved with modeling,designing and implementing a database
 
-1. Create a schema of the following tables and identify necessary primary and foregin keys
-    i.Student(Roll_No,S_name,S_Address)
-   ii.Marksheet(Rollno,Sub1,Sub2,Sub3)
+1. Create a schema of the following tables and identify necessary primary and foregin keys <br>
+    i.Student(Roll_No,S_name,S_Address) <br>
+   ii.Marksheet(Rollno,Sub1,Sub2,Sub3) <br>
 
 2. Insert given values into above tables:
       
@@ -22,12 +22,12 @@ CO1: Design and build a simple relational database system and demonstrate compet
          2         54         65         77
          3         23         78         46
 
-3. a.Add an Extra column Grade to marksheet table.
-   b.Remove Sub 2 column from Marksheet table.
-   c.Add an extra column phone_no to student table (it should contain only 10 numbers)
+3. a.Add an Extra column Grade to marksheet table. <br>
+   b.Remove Sub 2 column from Marksheet table. <br>
+   c.Add an extra column phone_no to student table (it should contain only 10 numbers) <br>
 
-4 From above table find
-  a.Student staying at pattom
+4 From above table find <br>
+  a.Student staying at pattom <br>
   b.Total mark of roll no 2
   c.find the name of student having roll no 3.
   d.Display the phone number of sachin
