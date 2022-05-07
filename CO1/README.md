@@ -28,27 +28,27 @@ CO1: Design and build a simple relational database system and demonstrate compet
 
 4 From above table find <br>
   a.Student staying at pattom <br>
-  b.Total mark of roll no 2
-  c.find the name of student having roll no 3.
-  d.Display the phone number of sachin
+  b.Total mark of roll no 2 <br>
+  c.find the name of student having roll no 3. <br>
+  d.Display the phone number of sachin <br>
          
-5. Create the following Table and perform names of Passengers
+5. Create the following Table and perform names of Passengers <br>
+ 
+   Bus(Bus No(PK), Source,destination,coach type) <br>
+   Reservation(PNR-NO,Ticket No(FK),Name,Age,Sex,Contact No) <br>
+   Ticket(Ticket No,Journey Date,Age,Sex,Source,Destination,Dep_time,BusNO) <br>
+   Passenger(PNR-NO,Ticket no(FK),Name,Age,Sex,Contact No) <br>
+   Cancellation(PNR-NO,Journey date,Seat no,Contact NO) <br>
 
-   Bus(Bus No(PK), Source,destination,coach type)
-   Reservation(PNR-NO,Ticket No(FK),Name,Age,Sex,Contact No)
-   Ticket(Ticket No,Journey Date,Age,Sex,Source,Destination,Dep_time,BusNO)
-   Passenger(PNR-NO,Ticket no(FK),Name,Age,Sex,Contact No)
-   Cancellation(PNR-NO,Journey date,Seat no,Contact NO)
-
- a. Display Ticket Number and name of all Passengers
- b. Display all male passengers
- c. Find the names of the passenger whose age is between 20 and 40
- d. make seat no field of cancellation table to conatin 12 digits
- e. Delete the 201 bus.
- f. Find all the passengers who cancelled ticket on 10.10.2019
- g. Find all total no of females already travelled on bus no 200
- h. Display the sorted list of passengers Names
- i. Find the ticket number of passenger whose name starts with 'S' and ends with 'H'.
+ a. Display Ticket Number and name of all Passengers <br>
+ b. Display all male passengers <br>
+ c. Find the names of the passenger whose age is between 20 and 40 <br>
+ d. make seat no field of cancellation table to conatin 12 digits <br>
+ e. Delete the 201 bus. <br>
+ f. Find all the passengers who cancelled ticket on 10.10.2019 <br>
+ g. Find all total no of females already travelled on bus no 200 <br>
+ h. Display the sorted list of passengers Names <br>
+ i. Find the ticket number of passenger whose name starts with 'S' and ends with 'H'. <br>
 
 
   
