@@ -1,5 +1,4 @@
 ###### Create the following tables with first field in all as the primary key.
-<br>
 Student (studid, name, class, city, total marks, percentage, deptid) <br>
 Staff (staffid, name, deptid, designation, salary.city) <br>
 Department (deptid, name) <br>
