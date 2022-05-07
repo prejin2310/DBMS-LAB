@@ -1,8 +1,8 @@
 CO1: Design and build a simple relational database system and demonstrate competence with the fundamental task involved with modeling,designing and implementing a database
 
 1. Create a schema of the following tables and identify necessary primary and foregin keys <br>
-    i.Student(Roll_No,S_name,S_Address) <br>
-   ii.Marksheet(Rollno,Sub1,Sub2,Sub3) <br>
+    >i. Student(Roll_No,S_name,S_Address) <br>
+   >ii. Marksheet(Rollno,Sub1,Sub2,Sub3) <br>
 
 2. Insert given values into above tables:
       
