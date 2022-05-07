@@ -38,9 +38,9 @@ CO1: Design and build a simple relational database system and demonstrate compet
    >Reservation(PNR-NO,Ticket No(FK),Name,Age,Sex,Contact No) <br>
    Ticket(Ticket No,Journey Date,Age,Sex,Source,Destination,Dep_time,BusNO) <br>
    Passenger(PNR-NO,Ticket no(FK),Name,Age,Sex,Contact No) <br>
-   Cancellation(PNR-NO,Journey date,Seat no,Contact NO) <br>
+   Cancellation(PNR-NO,Journey date,Seat no,Contact NO) 
 
- a. Display Ticket Number and name of all Passengers <br>
+ ```a. Display Ticket Number and name of all Passengers <br>
  b. Display all male passengers <br>
  c. Find the names of the passenger whose age is between 20 and 40 <br>
  d. make seat no field of cancellation table to conatin 12 digits <br>
@@ -48,7 +48,7 @@ CO1: Design and build a simple relational database system and demonstrate compet
  f. Find all the passengers who cancelled ticket on 10.10.2019 <br>
  g. Find all total no of females already travelled on bus no 200 <br>
  h. Display the sorted list of passengers Names <br>
- i. Find the ticket number of passenger whose name starts with 'S' and ends with 'H'. <br>
+ i. Find the ticket number of passenger whose name starts with 'S' and ends with 'H'. <br>```
 
 
   
