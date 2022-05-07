@@ -8,8 +8,8 @@ CO1: Design and build a simple relational database system and demonstrate compet
       
       Student Table:
       
-      ROLL_NO SNAME                SADDRESS             
-      ------- -------------------- -----------------
+      ROLL NO  SNAME                SADDRESS             
+      -------  -------------------- -----------------
          1    Rahul                Pattom
          2    Sachin               Ambalam Mukku
          3    Saurav               Nalanchira
