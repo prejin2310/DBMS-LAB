@@ -27,8 +27,6 @@
  Aleena 
 
 
-delete from employee,company where employee.cmpid=comapany.cmpid and company.no_emp<5;
-
 4d> select *,max(no_emp) from company;
 
     cmpid  name  city        no_emp  max(no_emp) 
