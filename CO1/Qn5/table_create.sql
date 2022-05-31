@@ -7,7 +7,8 @@ mysql> desc Reservationn;
 mysql> create table Ticket(TicketNo int,Jdate date,age int,sex varchar(10),source varchar(25),Destination varchar(25),Dep_time time,BusNo int,primary key(TicketNo),foreign key(BusNo) references Bus(BusNo));
 mysql> desc Ticket;
 
-mysql> create table Passenger(PNRNo int,jdate date,SeatNo int,ContactNo BIGINT, foreign key(PNRNo) references Reservationn(PNRno));
+mysql> create table Passenger(PNRNo int,TicketNo int,Name varchar(25),Age int,Sex varchar(2),ContactNo BIGINT,foreign key(PNRNo) references Reservationn(PNRNo),foreign key(TicketNo) references Ticket(TicketNo));
+
 mysql> desc passenger;
 
 mysql> create table Cancellation(PNRNo int,jdate date,SeatNo int,ContactNo BIGINT, foreign key(PNRNo) references Reservationn(PNRno));
@@ -48,14 +49,15 @@ O/P:
 +-----------+------+------+-----+---------+-------+
 
 
-+-----------+------+------+-----+---------+-------+
-| Field     | Type | Null | Key | Default | Extra |
-+-----------+------+------+-----+---------+-------+
-| PNRNo     | int  | YES  | MUL | NULL    |       |
-| jdate     | date | YES  |     | NULL    |       |
-| SeatNo    | int  | YES  |     | NULL    |       |
-| ContactNo | int  | YES  |     | NULL    |       |
-+-----------+------+------+-----+---------+-------+
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| PNRNo     | int         | YES  | MUL | NULL    |       |
+| TicketNo  | int         | YES  | MUL | NULL    |       |
+| Name      | varchar(25) | YES  |     | NULL    |       |
+| Age       | int         | YES  |     | NULL    |       |
+| Sex       | varchar(2)  | YES  |     | NULL    |       |
+| ContactNo | bigint      | YES  |     | NULL    |       |
 
 
 +-------------+-------------+------+-----+---------+-------+
