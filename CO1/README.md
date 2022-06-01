@@ -37,7 +37,7 @@
 ###### 5. Create the following Table and perform names of Passengers <br>
  
    >Bus(Bus No(PK), Source,destination,coach type) <br>
-   >Reservation(PNR-NO,Ticket No(FK),Name,Age,Sex,Contact No) <br>
+   >Reservation(PNR-No,Journey_Date,No of Seats,Address,Contact No,Bus No(FK),Seat No) <br>
    Ticket(Ticket No,Journey Date,Age,Sex,Source,Destination,Dep_time,BusNO) <br>
    Passenger(PNR-NO,Ticket no(FK),Name,Age,Sex,Contact No) <br>
    Cancellation(PNR-NO,Journey date,Seat no,Contact NO) 
