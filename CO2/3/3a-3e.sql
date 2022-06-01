@@ -34,8 +34,7 @@
             2       1001
             1       1002
 
-3e> select cmpid,min(no_emp) from company;
-    delete from employee where cmpid=8001;
+3e> delete from employee where cmpid in(select employee.cmpid= from company.employee where employee.cmpid=company.cmpid and comapny.no_emp<5;
 
 
 
