@@ -1,0 +1,16 @@
+Q1) db.books.insertMany([{_id:1,bid:1,bname:"OS",author:"Silverchartz",price:100},
+                     {_id:2,bid:2,bname:"Networking",author:"Richar",price:80},
+                     {_id:3,bid:3,bname:"DBMS",author:"Jessica",price:180},
+                     {_id:4,bid:4,bname:"Machine Learning",author:"Lewis Carrol",price:380},
+                     {_id:5,bid:5,bname:"Software Engineering",author:"Robert ",price:30}])
+
+
+Q2) db.books.find({author:"Silverchartz"})
+
+Q3) db.books.update({bname:"OS"},{$set:{price:200}})
+
+Q4) db.books.update({bname:"OS"},{$set:{bname:"Operating System"}})
+
+Q5) db.books.deleteOne({bid:3})
+
+Q6) db.books.deleteMany({price:{$lt:100}})
